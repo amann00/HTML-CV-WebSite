@@ -1,0 +1,57 @@
+/****************Tag Slectors*****************/
+body {
+  background-color: #eaf6f6;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 10px;
+  width: 20%;
+}
+
+h1 {
+  color: #f05454;   <!-- This color will not display due to different ID selector color -->
+  text-decoration: underline;
+
+}
+
+h3 {
+  color: #16a596;
+  text-decoration: underline;
+}
+
+/****************Class Selectors*****************/
+/* Classes are not unique, i.e, same Class can be used in multiple Tags. */
+.Animated-Photo, .Work_Experience, .Rating_Skills  {
+  width: 130px;
+  height: 120px;
+}
+
+.Hobbies-GIF, .ContactMe-GIF{
+  width: 130px;
+  height: 120px;
+}
+
+.Hobbies-GIF:hover {
+  background-color: #e8e8e8;
+}
+
+
+
+
+/*****************ID Selectors******************/
+/* IDs have Unique Identification, i.e, one ID can be used in only one tag. */
+/* ID Selectors have much priority as compared to the Tag and Class Selectors.
+That is if there is some style in ID and some other Selector at the same time,
+then the ID Selector value will appear in wensite.*/
+
+#Heading {
+  color: #008891;   <!-- ID Selector color will be displayed instead of <H1> tag selector -->
+
+}
+
+/* Use Classes when you want to apply the same style to a group of related
+items and use the ID to a specific style to a single element on your webpage.
+ /*

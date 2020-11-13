@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+
+    <meta charset="utf-8">
+    <title>HTML Forms</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+
+  </head>
+
+  <body>
+    <h2 style="color:red">Internship Form </h2>
+
+    <form class="" action="mailto:sandbox782@gmail.com" method="post" enctype="text/plain">
+      <!-- Encoding type Text/Plane is set so as to send plain text -->
+  <div>
+      <b> <label for="name">First Name: </label> </b>  <!--The <Label> tag helps to automatically enterring the cursor inside the input box, when we click on 'First Name' in the website-->
+    <!--This Division <div> tag will move the other inputs to next line-->
+       <input type="text" name="first_name" id="name">
+  </div>
+  <br>
+
+  <div>
+      <b>Last Name:</b> <input type="text" name="last_name">
+  </div>
+  <br>
+
+<div>
+  <b> <label for="College"> Select College:</label> </b>
+  <select name="college" id="your_college">
+      <option value="iit">IIT Delhi</option>
+      <option value="nsit">NSIT</option>
+      <option value="dtu">DTU</option>
+      <option value="mait" selected>MAIT</option>
+      <option value="msit">MSIT</option>
+      <option value="ggsipu">GGSIPU</option>
+      <option value="iiit">IIIT Delhi</option>
+      <option value="amity">Amity University</option>
+      <option value="bvpit">BVPIT</option>
+      <option value="du">Delhi University</option>
+      <option value="other">Other</option>
+  </select>
+</div>
+<br>
+
+<div>
+    <b>Email:</b> <input type="email" name="email">
+</div>
+<br>
+
+<div>
+    <b>Password:</b> <input type="password" name="password">
+</div>
+<br>
+
+<div>
+    <b>DOB:</b> <input type="date" name="DOB">
+</div>
+<br>
+
+<div>
+  <b>Add a good Photo of you ! <br>
+  Upload: </b> <input type="file" name="" value="">
+</div>
+<br>
+<div>
+    <b>Are you Colorblind ? <br> Pick Red color:</b> <input type="color" name="color">
+    <br>
+    <b>Now, pick Green color:</b> <input type="color" name="" value="redBg">
+</div>
+<br>
+
+<div>
+    <b>Gender:</b>  Male <input type="radio" name="gender"> Female <input type="radio" name="gender"> Other <input type="radio" name="gender">
+</div>
+<br>
+
+<div>
+  <b>Date of Submission:</b> <input type="date" name="" value="">
+</div>
+<br>
+
+<div>
+
+  <b>Your excitement for this Internship: </b> <input type="range" name="Low" value="" min="0" max="5">
+</div>
+<br>
+
+<div>
+    <b>I accept that all of my details are correct:</b> <input type="checkbox" name="Terms and Conditions"> </div>
+<br>
+
+<div>
+    <b>Generate OTP:</b> <input type="number" name="Gen_OTP">
+</div>
+<br>
+
+<div>
+    <b>Tell us your Strengths:</b> <br> <textarea name="" id="Your text here" cols="50" rows="3"></textarea>
+</div>
+<br>
+
+<div>
+  <input type="reset" value="Reset">
+  <input type="submit" value="Submit Form">
+</div>
+<br>
+
+    </form>
+  </body>
+</html>
